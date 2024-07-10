@@ -71,6 +71,6 @@ export abstract class Payments {
   }
 
   public static encodeRefundETH(): string {
-    return Payments.INTERFACE.encodeFunctionData('refundETH')
+    return Payments.INTERFACE.encodeFunctionData('refundSEI')
   }
 }
