@@ -90,7 +90,7 @@ function _objectWithoutPropertiesLoose(r, e) {
   if (null == r) return {};
   var t = {};
   for (var n in r) if ({}.hasOwnProperty.call(r, n)) {
-    if (e.indexOf(n) >= 0) continue;
+    if (e.includes(n)) continue;
     t[n] = r[n];
   }
   return t;
@@ -419,7 +419,7 @@ function _unsupportedIterableToArray(r, a) {
 }
 
 var _TICK_SPACINGS;
-var FACTORY_ADDRESS = '0x12437643B9c943201407695409386c264516c0BC';
+var FACTORY_ADDRESS = '0x0bcea088e977a03113a880cF7c5b6165D8304B16';
 var ADDRESS_ZERO = '0x0000000000000000000000000000000000000000';
 var POOL_INIT_CODE_HASH = '0x7eeacb23bdc28add5b4c2a0b30a03d6280208d04ba9baf8f56e87a331cf73590';
 (function (FeeAmount) {
@@ -2702,7 +2702,7 @@ var NonfungiblePositionManager = /*#__PURE__*/function () {
     var value = toHex(0);
     if (options.useNative) {
       var wrapped = options.useNative.wrapped;
-      !(position.pool.token0.equals(wrapped) || position.pool.token1.equals(wrapped)) ?  invariant(false, 'NO_WETH')  : void 0;
+      !(position.pool.token0.equals(wrapped) || position.pool.token1.equals(wrapped)) ?  invariant(false, 'NO_WSEI')  : void 0;
       var wrappedValue = position.pool.token0.equals(wrapped) ? amount0Desired : amount1Desired;
       // we only need to refund if we're actually sending ETH
       if (JSBI.greaterThan(wrappedValue, ZERO)) {

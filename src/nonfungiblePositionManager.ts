@@ -265,7 +265,7 @@ export abstract class NonfungiblePositionManager {
 
     if (options.useNative) {
       const wrapped = options.useNative.wrapped
-      invariant(position.pool.token0.equals(wrapped) || position.pool.token1.equals(wrapped), 'NO_WETH')
+      invariant(position.pool.token0.equals(wrapped) || position.pool.token1.equals(wrapped), 'NO_WSEI')
 
       const wrappedValue = position.pool.token0.equals(wrapped) ? amount0Desired : amount1Desired
 
