@@ -1816,9 +1816,9 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@miljan9602/dswap-sdk-core@github:Miljan9602/dswap-sdk-core#staging-mainnet":
+"@miljan9602/dswap-sdk-core@github:Miljan9602/dswap-sdk-core#main":
   version "4.2.0"
-  resolved "https://codeload.github.com/Miljan9602/dswap-sdk-core/tar.gz/c14c0f039301303d1d964fc5e17841bce10bb24c"
+  resolved "https://codeload.github.com/Miljan9602/dswap-sdk-core/tar.gz/b6c984a0b7aea715abb6ac0fddb6bca673f5b826"
   dependencies:
     "@ethersproject/address" "^5.0.2"
     big.js "^5.2.2"
