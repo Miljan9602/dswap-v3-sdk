@@ -27,9 +27,9 @@
     "@ethersproject/abi": "^5.0.12",
     "@ethersproject/solidity": "^5.0.9",
     "@miljan9602/dswap-sdk-core": "github:Miljan9602/dswap-sdk-core#main",
-    "@dragonswap/swap-router-contracts": "git+ssh://git@github.com:dragonswap-app/swap-router-contracts.git",
-    "@dragonswap/v2-periphery": "git+ssh://git@github.com:dragonswap-app/v2-periphery.git",
-    "@dragonswap/v2-staker": "git+ssh://git@github.com:dragonswap-app/v2-staker.git",
+    "@dragonswap/swap-router-contracts": "github:dragonswap-app/swap-router-contracts#master",
+    "@dragonswap/v2-periphery": "github:dragonswap-app/v2-periphery#main",
+    "@dragonswap/v2-staker": "github:dragonswap-app/v2-staker#master",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3"
   },
